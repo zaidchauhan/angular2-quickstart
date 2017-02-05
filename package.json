@@ -1,0 +1,38 @@
+{
+  "name": "angular2-quickstart",
+  "version": "1.0.0",
+  "description": "Angular 2 Seed",
+  "main": "server.js",
+  "scripts": {
+    "tsc": "tsc",
+    "tsc:watch": "tsc -w",
+    "start": "npm run tsc && concurrently \"npm run tsc:watch\" \"node server.js\" "
+  },
+  "keywords": [
+    "angular2",
+    "quickstart"
+  ],
+  "author": "Zaid Chauhan",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "@angular/common": "^2.4.6",
+    "@angular/compiler": "^2.4.6",
+    "@angular/core": "^2.4.6",
+    "@angular/forms": "^2.4.6",
+    "@angular/http": "^2.4.6",
+    "@angular/platform-browser": "^2.4.6",
+    "@angular/platform-browser-dynamic": "^2.4.6",
+    "@angular/router": "^3.4.6",
+    "express": "^4.14.1",
+    "systemjs": "0.19.40",
+    "core-js": "^2.4.1",
+    "rxjs": "5.0.1",
+    "zone.js": "^0.7.4"
+  },
+  "devDependencies": {
+    "@types/jasmine": "^2.5.36",
+    "@types/node": "^6.0.46",
+    "concurrently": "^3.1.0",
+    "typescript": "^2.1.5"
+  }
+}
