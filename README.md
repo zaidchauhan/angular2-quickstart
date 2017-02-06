@@ -1,4 +1,6 @@
 # angular2-quickstart
 Angular2 Quickstart
 
-npm run start
+###Steps To Run
+* npm install
+* npm start
